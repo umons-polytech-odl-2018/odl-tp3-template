@@ -1,0 +1,24 @@
+= Programmation en Java : interface graphique
+François Roland <francois.roland@umons.ac.be>
+2017-10-23
+:icons: font
+:experimental:
+ifdef::backend-html5[]
+:source-highlighter: highlightjs
+endif::[]
+ifdef::backend-pdf[]
+:source-highlighter: coderay
+:notitle:
+
+[discrete]
+= {doctitle}
+endif::[]
+
+
+[bibliography]
+== Références
+
+* Deitel, H. M. & Deitel, P. J. (2002), _JAVA Comment programmer – Quatrième édition_. Les éditions Reynald Goulet INC.
+* Manneback, P. & Frémal, S. (2014-2015) _Travaux pratiques de Méthodologie et Langage de Programmation_. UMons.
+* Manneback, P. (2005-2006) _Méthodologie et Langages de Programmation_. UMons.
+* _Java Platform Standard Edition 8 Documentation_. Récupéré de https://docs.oracle.com/javase/8/docs/
