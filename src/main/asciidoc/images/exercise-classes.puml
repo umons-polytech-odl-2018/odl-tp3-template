@@ -1,0 +1,29 @@
+@startuml
+
+package javax.swing {
+	abstract class JComponent {
+		+ paintComponent(g : java.awt.Graphics) : void
+	}
+
+	class JPanel
+
+	JComponent <|-- JPanel
+}
+
+package exercise {
+	class DrawingPanel {
+		+ paintComponent(g : java.awt.Graphics) : void
+	}
+
+	interface Drawable {
+		+ draw(g : java.awt.Graphics) : void
+	}
+
+	JPanel <|-- DrawingPanel
+	DrawingPanel o-> Drawable
+
+	Drawable <|-- ConvexPolygon
+	ConvexPolygon <|-- Rectangle
+	Rectangle <|-- Square
+}
+@enduml
